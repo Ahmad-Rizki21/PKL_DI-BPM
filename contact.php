@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>Galaxy Intership</title>
+    <title>Galaxy Intership <?php echo htmlspecialchars($_SESSION["name"]); ?></title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -74,6 +74,9 @@
                                     </li>
                                     <li class="nav-item active">
                                         <a class="nav-link" href="contact.php">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="logut.php">Logut</a>
                                     </li>
                                     <li class="nav-item d_none">
                                         <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
